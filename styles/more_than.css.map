@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,MAAM,EAAC,KAAK;EACZ,MAAM,EAAE,aAAa",
+"sources": ["more_than.scss"],
+"names": [],
+"file": "more_than.css"
+}

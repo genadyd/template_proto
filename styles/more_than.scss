@@ -1,0 +1,44 @@
+#more_than{
+  height:520px ;
+  position: relative;
+  .more_than_inner{
+    position: relative;
+    height: 100%;
+    margin: 0 auto ;
+    padding-top: 77px;
+    .test_box{
+      width: 45%;
+      padding:40px 4rem 0 0 ;
+      .title_box{
+        color: $dark_grey;
+        .first_line{
+          font-size: 2.5rem;
+          line-height: 1;
+        }
+        .second_line{
+          font-size: 3.19rem;
+          line-height: 1;
+        }
+      }
+      p.text{
+        font-size: 1.1rem;
+        color: #707980;
+        margin-top: 2.5rem;
+        line-height: 1.4rem;
+      }
+    }
+    .image_box{
+      width: 55%;
+      background: url("../images/computers.png") no-repeat center ;
+    }
+  }
+  .gras_box{
+    position: absolute;
+    bottom: 0;
+    height: 114px;
+    width: 1179px;
+    background: url("../images/gras.png");
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

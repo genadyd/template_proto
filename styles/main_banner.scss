@@ -1,0 +1,41 @@
+@import "vars";
+#main_banner{
+  height: 470px;
+  background-image: url("../images/main_banner_bg.jpg");
+  .main_baner_inner{
+    .text_box{
+      .its_never{
+        font-size: 3.75rem;
+        line-height: 1;
+        word-spacing: 0.4rem;
+      }
+      .to_build{
+        font-size: 1.875rem;
+        line-height: 1;
+        word-spacing: 0.3rem;
+      }
+      .using{
+        font-size: 2.6875rem;
+        word-spacing: 0.2rem;
+      }
+    }
+    .button_box{
+      margin: 3rem 0 5.8rem;
+      button{
+        background-color: #51586c;
+        height: 45px;
+        width: 263px;
+        box-sizing: border-box;
+        padding: 0 0 0 0.6rem;
+        font-size: 1.2rem;
+        .button_icon {
+          display: inline-block;
+        }
+        .button_text{
+          display: inline-block;
+          line-height: 1;
+        }
+      }
+    }
+  }
+}

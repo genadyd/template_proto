@@ -1,0 +1,78 @@
+#feadbacks{
+  height: 300px;
+  background-color: #2f333d;
+  .feadbacks_inner{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .title{
+      font-size: 2.5rem;
+      line-height: 1;
+      margin-bottom: 2.2rem;
+      span{
+        color: $site_green;
+      }
+    }
+    .slider_box{
+      justify-content: space-between;
+      align-items: center;
+      height: 133px;
+      width: 100%;
+      .slider_screen {
+        width: 943px;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+        margin: 0 auto;
+
+        .one_carousel {
+          //display: flex;
+          height: 100%;
+
+          .image_area {
+            display: inline-block;
+            img {
+              border-radius: 50%;
+              border: solid 4px $site_green;
+            }
+          }
+
+          .text_area {
+            display: inline-block;
+            margin-left: 2.5rem;
+            position: relative;
+            height: 100%;
+            width: 80% ;
+
+            .text {
+              font-size: 1.3rem;
+              line-height: 1.25;
+            }
+
+            .name {
+              color: $site_green;
+              font-size: 1.3rem;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+            }
+          }
+        }
+
+      }
+      .carousel-control-next, .carousel-control-prev{
+        width: auto;
+      }
+      .to_right span, .to_left span{
+        font-size: 3rem;
+        cursor: pointer;
+        width: 33px;
+      }
+      .to_left span{
+        margin-left: -15px;
+      }
+    }
+  }
+}

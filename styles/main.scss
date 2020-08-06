@@ -1,0 +1,29 @@
+@import "vars";
+body {
+  font-family: Lato, Arial, sans-serif;
+}
+
+.main_container {
+  width: 1500px;
+  margin: 0 auto;
+.custom_inner{
+  width: $inner_element_width;
+  margin: 0 auto;
+}
+  @import "header";
+  @import "main_banner";
+  @import "more_than";
+  @import "modern_design";
+  @import "features";
+  @import "feedbacks";
+  @import "galery";
+  @import "endless";
+  @import "clients";
+  @import "footer";
+  @import "logo_footer";
+}
+@media (max-width: 1500px){
+  .main_container{
+    width: 100%;
+  }
+}

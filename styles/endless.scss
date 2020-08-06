@@ -1,0 +1,52 @@
+#endless{
+  height: 660px;
+  background-color: #dbdbdb;
+
+  .endless_inner{
+    height: 100%;
+    position: relative;
+    .left_box{
+     width: 50%;
+      .title{
+        font-size: 2.4rem;
+        color: #2f333d;
+        margin-bottom: 3rem;
+        div{
+          line-height: 1.2;
+        }
+        .green{
+          color: $site_green;
+        }
+      }
+      p{
+        font-size: 1.12rem;
+        color: #707980;
+        padding-right: 7.1rem;
+        line-height: 1.2;
+        margin-bottom: 4rem;
+      }
+    }
+    button{
+      background-color: #51586c;
+      border: none;
+      padding: 0.7rem 0.8rem;
+       .button_text{
+         font-size: 1.2rem;
+       }
+       .button_icon{
+         width: 15px;
+         margin-left: 17px;
+       }
+    }
+    .image_box{
+      width: 774px;
+      height: 598px;
+      background: url("../images/endless.png") no-repeat center;
+      position: absolute;
+      left: 48%;
+      bottom: 0;
+
+    }
+  }
+
+}

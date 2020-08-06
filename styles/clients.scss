@@ -1,0 +1,38 @@
+#clients{
+  height: 622px;
+  .clients_inner{
+    position: relative;
+    height: 100%;
+    .title{
+      font-size: 3rem;
+      color: $dark_grey;
+      position: absolute;
+      left:50% ;
+      transform: translateX(-50%);
+      top:0;
+      line-height: 1;
+      top:73px ;
+      span{
+        color: $site_green;
+      }
+    }
+    .logos_box{
+      width: 100%;
+      height: 35%;
+      margin-top: 171px;
+      align-content: space-between;
+      .one_logo{
+        text-align: center;
+      }
+    }
+    .cactus{
+      width: 105px;
+      height: 212px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background: url("../images/cactus.png");
+    }
+  }
+}

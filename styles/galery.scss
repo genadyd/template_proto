@@ -1,0 +1,18 @@
+#galery{
+  height: 730px;
+  .galery_inner{
+    height: 100%;
+    .title{
+      font-size: 2.5rem;
+      color: $dark_grey;
+      line-height: 1;
+      padding: 54px 0 60px;
+      span{
+        color: $site_green;
+      }
+    }
+    .galery_box{
+      width: 100%;
+    }
+  }
+}
