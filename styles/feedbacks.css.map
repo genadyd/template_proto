@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,UAAU;EACR,MAAM,EAAE,KAAK",
-"sources": ["feedbacks.scss"],
-"names": [],
-"file": "feedbacks.css"
-}
