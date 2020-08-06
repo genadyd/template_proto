@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,OAAO;EACL,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,aAAa",
-"sources": ["galery.scss"],
-"names": [],
-"file": "galery.css"
-}
